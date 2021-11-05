@@ -1,0 +1,14 @@
+name: build code and push to build branch
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      PUBLIC_URL: https://danfarino.github.io/objectgraph
+    steps:
+      - uses: actions/checkout@v2
+      - name: build
+        run: ./build.sh
