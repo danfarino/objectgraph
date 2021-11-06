@@ -49,7 +49,7 @@ function Help(props) {
   return (
     <div className={classes.root}>
       <div className={classes.title}>JavaScript Object Reference Graph</div>
-      <div className={classes.by}>by Dan Farino, 2018-2020</div>
+      <div className={classes.by}>by Dan Farino, 2018-2021</div>
       <ul className={classes.ul}>
         <li>
           Call the &ldquo;show&rdquo; function with any objects/values that
@@ -58,11 +58,11 @@ function Help(props) {
         <li>
           If you&rsquo;d like to use{" "}
           <a
-            href="https://immerjs.github.io/immer/docs/introduction"
+            href="https://immerjs.github.io/immer/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            immer 8.0
+            immer 9.0
           </a>
           , it&rsquo;s in scope as &ldquo;produce&rdquo; (
           <a href="?code=MYewdgzgLgBCBGArAjDAvDA3gKBjMAhgLYCmAXDAOQAiBYlANLvgK5HwkBOEFA2ssgYxkAZiHIA7AF1sAXwDc2bBAAWIAO4AKBCgCUi7KEiwdAJnQwADpxAATFsBLakgmLfQA+LM1sA6QqQWlABSICr0irL6Sqoazoim0Ybg0HBIIhbWdg5OZkLuaF44eH5gbBzcvAAMUhYALKaKJf7lXBC+liyqmshVVdFRBrFaOiLRQA">
@@ -72,7 +72,7 @@ function Help(props) {
         </li>
         <li>
           <a
-            href="https://github.com/danfarino/objectgraph-src"
+            href="https://github.com/danfarino/objectgraph"
             target="_blank"
             rel="noopener noreferrer"
           >
