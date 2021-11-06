@@ -6,8 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      PUBLIC_URL: https://danfarino.github.io/objectgraph
     steps:
       - uses: actions/checkout@v2
       - name: build
