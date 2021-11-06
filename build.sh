@@ -15,7 +15,7 @@ if [[ ${GITHUB_ACTIONS:-} ]]; then
     git config --global user.email dan.farino@gmail.com
     git checkout -b build
     git add -f .
-    git commit -m "built by workflow \"$GITHUB_WORKFLOW\""
+    git commit -m "built from $GITHUB_REF at $GITHUB_SHA"
 
     # Note: specify target branch explicitly to avoid any accidental
     # force pushes if this script is edited incorrectly later.
